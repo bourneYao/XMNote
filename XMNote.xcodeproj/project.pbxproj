@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B2CE0FE171BE5AD006F73A7 /* XMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2CE0FD171BE5AD006F73A7 /* XMViewController.m */; };
+		1B5690701721616600E61374 /* NavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B56906F1721616600E61374 /* NavigationController.xib */; };
+		1BC81ACD1718F6580086B9A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC81ACC1718F6580086B9A5 /* UIKit.framework */; };
+		1BC81ACF1718F6580086B9A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC81ACE1718F6580086B9A5 /* Foundation.framework */; };
+		1BC81AD11718F6580086B9A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC81AD01718F6580086B9A5 /* CoreGraphics.framework */; };
+		1BC81AD71718F6580086B9A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BC81AD51718F6580086B9A5 /* InfoPlist.strings */; };
+		1BC81AD91718F6580086B9A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC81AD81718F6580086B9A5 /* main.m */; };
+		1BC81ADF1718F6580086B9A5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC81ADE1718F6580086B9A5 /* Default.png */; };
+		1BC81AE11718F6580086B9A5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC81AE01718F6580086B9A5 /* Default@2x.png */; };
+		1BC81AE31718F6580086B9A5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC81AE21718F6580086B9A5 /* Default-568h@2x.png */; };
+		1BC81AF21718F7890086B9A5 /* XMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC81AF11718F7890086B9A5 /* XMAppDelegate.m */; };
+		1BE34010172231A600534001 /* XMNewNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE3400F172231A600534001 /* XMNewNoteViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B2CE0FC171BE5AD006F73A7 /* XMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMViewController.h; sourceTree = "<group>"; };
+		1B2CE0FD171BE5AD006F73A7 /* XMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMViewController.m; sourceTree = "<group>"; };
+		1B56906F1721616600E61374 /* NavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationController.xib; sourceTree = "<group>"; };
+		1BC81AC81718F6580086B9A5 /* XMNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC81ACC1718F6580086B9A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1BC81ACE1718F6580086B9A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1BC81AD01718F6580086B9A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1BC81AD41718F6580086B9A5 /* XMNote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XMNote-Info.plist"; sourceTree = "<group>"; };
+		1BC81AD61718F6580086B9A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1BC81AD81718F6580086B9A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BC81ADA1718F6580086B9A5 /* XMNote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMNote-Prefix.pch"; sourceTree = "<group>"; };
+		1BC81ADE1718F6580086B9A5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1BC81AE01718F6580086B9A5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1BC81AE21718F6580086B9A5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1BC81AF01718F7890086B9A5 /* XMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMAppDelegate.h; sourceTree = "<group>"; };
+		1BC81AF11718F7890086B9A5 /* XMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMAppDelegate.m; sourceTree = "<group>"; };
+		1BE3400E172231A600534001 /* XMNewNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMNewNoteViewController.h; sourceTree = "<group>"; };
+		1BE3400F172231A600534001 /* XMNewNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMNewNoteViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BC81AC51718F6580086B9A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC81ACD1718F6580086B9A5 /* UIKit.framework in Frameworks */,
+				1BC81ACF1718F6580086B9A5 /* Foundation.framework in Frameworks */,
+				1BC81AD11718F6580086B9A5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B2CE0FB171BE5AD006F73A7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B2CE0FC171BE5AD006F73A7 /* XMViewController.h */,
+				1B2CE0FD171BE5AD006F73A7 /* XMViewController.m */,
+				1BE3400E172231A600534001 /* XMNewNoteViewController.h */,
+				1BE3400F172231A600534001 /* XMNewNoteViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1B2CE104171BE667006F73A7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		1BC81ABD1718F6580086B9A5 = {
+			isa = PBXGroup;
+			children = (
+				1BC81AD21718F6580086B9A5 /* XMNote */,
+				1BC81ACB1718F6580086B9A5 /* Frameworks */,
+				1BC81AC91718F6580086B9A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BC81AC91718F6580086B9A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BC81AC81718F6580086B9A5 /* XMNote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BC81ACB1718F6580086B9A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BC81ACC1718F6580086B9A5 /* UIKit.framework */,
+				1BC81ACE1718F6580086B9A5 /* Foundation.framework */,
+				1BC81AD01718F6580086B9A5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BC81AD21718F6580086B9A5 /* XMNote */ = {
+			isa = PBXGroup;
+			children = (
+				1BE3401117229DA200534001 /* Bean */,
+				1B2CE0FB171BE5AD006F73A7 /* ViewControllers */,
+				1BC81AEF1718F7890086B9A5 /* Delegates */,
+				1BC81AF31718F79D0086B9A5 /* Support */,
+				1BC81AD31718F6580086B9A5 /* Supporting Files */,
+			);
+			path = XMNote;
+			sourceTree = "<group>";
+		};
+		1BC81AD31718F6580086B9A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B2CE104171BE667006F73A7 /* images */,
+				1BC81AD41718F6580086B9A5 /* XMNote-Info.plist */,
+				1BC81AD51718F6580086B9A5 /* InfoPlist.strings */,
+				1BC81AD81718F6580086B9A5 /* main.m */,
+				1BC81ADA1718F6580086B9A5 /* XMNote-Prefix.pch */,
+				1BC81ADE1718F6580086B9A5 /* Default.png */,
+				1BC81AE01718F6580086B9A5 /* Default@2x.png */,
+				1BC81AE21718F6580086B9A5 /* Default-568h@2x.png */,
+				1B56906F1721616600E61374 /* NavigationController.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BC81AEF1718F7890086B9A5 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				1BC81AF01718F7890086B9A5 /* XMAppDelegate.h */,
+				1BC81AF11718F7890086B9A5 /* XMAppDelegate.m */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		1BC81AF31718F79D0086B9A5 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		1BE3401117229DA200534001 /* Bean */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bean;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BC81AC71718F6580086B9A5 /* XMNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BC81AEC1718F6580086B9A5 /* Build configuration list for PBXNativeTarget "XMNote" */;
+			buildPhases = (
+				1BC81AC41718F6580086B9A5 /* Sources */,
+				1BC81AC51718F6580086B9A5 /* Frameworks */,
+				1BC81AC61718F6580086B9A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMNote;
+			productName = XMNote;
+			productReference = 1BC81AC81718F6580086B9A5 /* XMNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BC81ABF1718F6580086B9A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XM;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Bibo Yao";
+			};
+			buildConfigurationList = 1BC81AC21718F6580086B9A5 /* Build configuration list for PBXProject "XMNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1BC81ABD1718F6580086B9A5;
+			productRefGroup = 1BC81AC91718F6580086B9A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BC81AC71718F6580086B9A5 /* XMNote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BC81AC61718F6580086B9A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC81AD71718F6580086B9A5 /* InfoPlist.strings in Resources */,
+				1BC81ADF1718F6580086B9A5 /* Default.png in Resources */,
+				1BC81AE11718F6580086B9A5 /* Default@2x.png in Resources */,
+				1BC81AE31718F6580086B9A5 /* Default-568h@2x.png in Resources */,
+				1B5690701721616600E61374 /* NavigationController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BC81AC41718F6580086B9A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC81AD91718F6580086B9A5 /* main.m in Sources */,
+				1BC81AF21718F7890086B9A5 /* XMAppDelegate.m in Sources */,
+				1B2CE0FE171BE5AD006F73A7 /* XMViewController.m in Sources */,
+				1BE34010172231A600534001 /* XMNewNoteViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1BC81AD51718F6580086B9A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BC81AD61718F6580086B9A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BC81AEA1718F6580086B9A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1BC81AEB1718F6580086B9A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BC81AED1718F6580086B9A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XMNote/XMNote-Prefix.pch";
+				INFOPLIST_FILE = "XMNote/XMNote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1BC81AEE1718F6580086B9A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XMNote/XMNote-Prefix.pch";
+				INFOPLIST_FILE = "XMNote/XMNote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BC81AC21718F6580086B9A5 /* Build configuration list for PBXProject "XMNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC81AEA1718F6580086B9A5 /* Debug */,
+				1BC81AEB1718F6580086B9A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BC81AEC1718F6580086B9A5 /* Build configuration list for PBXNativeTarget "XMNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC81AED1718F6580086B9A5 /* Debug */,
+				1BC81AEE1718F6580086B9A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BC81ABF1718F6580086B9A5 /* Project object */;
+}
